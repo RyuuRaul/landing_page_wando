@@ -1,0 +1,15 @@
+IVCAM para usar la cámara del móvil.
+
+AWS Amazon Web Service.
+
+Probar github.
+
+life house monitorizar
+
+https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwando.life%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext
+
+git push // git status
+
+corporate.wando.life
+
+mail chip
