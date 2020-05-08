@@ -3,12 +3,36 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<title>Landign Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Acceso al CDN de Bootstap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!--Acceso al CDN de jquery-->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous">
+	</script>
+	<script>
+		//Aparece el texto cuando el usuario accede. Tarda un segundo (1000 milisegundos)
+		$(document).ready(function() {
+			$('#descripcion').show(2000);
+			$('#menuHorizontal').show(1000);
+		});
+	</script>
 </head>
 <body background="fondo.png">
-	<h1>Rock Top Sky Bar del Hotel & Spa Cordial Roca Negra</h1>	
+
+	<div id="menuHorizontal" align="rigth">
+		<ul>
+			<a href="#"><img src="logo-hotel.png" class="logo" /></a>
+			<a href="https://www.google.com/" id="donar" class="btn btn-primary">Donar</a>
+		</ul>
+	</div>
+
+	<div id="descripcion">
 		<p>Gracias a vosotros por vuestro trabajo principales autoridades por prestando servicios esenciales durante la situación de alerta.</p>
 		<p>Por eso el Hotel Cordial Roca Negra a creado un un evento solidario denominado #Gracias a vosotros en [Lugar del evento]</p>
 		<P>Para saber mas para reservar  <button class="button">Reserva</button></P>
-		
+	</div>
+
 </body>
 </html>
