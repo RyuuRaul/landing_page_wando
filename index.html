@@ -16,7 +16,26 @@
 		$(document).ready(function() {
 			$('#descripcion').show(2000);
 			$('#menuHorizontal').show(1000);
-			$('#video').show(1000);
+			$('#video').show(1500);
+		});
+
+		$(document).ready(function(){
+			$('#descripcion').on('click', '#masInfo', function(e){
+				e.preventDefault();
+				$('#video').slideUp(1000);
+				$('#descripcion').slideUp(1000);
+				$('#oculto').show(2500);
+			});
+		});
+
+		$(document).ready(function(){
+			$('#oculto').on('click', '#volver', function(e){
+				e.preventDefault();
+				$('#oculto').hide(1500);
+				$('#descripcion').show(2000);
+				$('#menuHorizontal').show(1000);
+				$('#video').show(1500);
+			});
 		});
 	</script>
 </head>
@@ -24,19 +43,32 @@
 
 	<div id="menuHorizontal" align="rigth">
 		<ul>
+			<a href="#" id="donar" class="btn btn-primary">Donar</a>
 			<a href="#"><img src="logo-hotel.png" class="logo" /></a>
-			<a href="https://www.google.com/" id="donar" class="btn btn-primary">Donar</a>
 		</ul>
 	</div>
 
 	<div id="descripcion">
 		<p>Gracias a vosotros por vuestro trabajo principales autoridades por prestando servicios esenciales durante la situación de alerta.</p>
-		<p>Por eso el Hotel Cordial Roca Negra a creado un un evento solidario denominado #Gracias a vosotros en [Lugar del evento]</p>
+		<p>Por eso el Hotel Cordial Roca Negra a creado un un evento solidario denominado #Graciasaustedes en [Lugar del evento]</p>
 		<P>Para saber más, reservar aquí <button class="button">Reserva</button></P>
+		<button class="button" id="masInfo">Más información</button>
 	</div>
 	<div id="video">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/sgGcOBayXmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
+
+	<div id="oculto">
+		<ul>
+			<li>Holo</li>
+			<li>Holo</li>
+			<li>Holo</li>
+			<li>Holo</li>
+		</ul>
+
+		<button class="button" align="center" id="volver">Volver</button>
+	</div>
+	
 
 </body>
 </html>
