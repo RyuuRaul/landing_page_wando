@@ -50,10 +50,10 @@
 	display: none;
 
 }
-.video{
+#video{
 	margin: auto;
 	padding: auto;
-	margin-left: 100px;
+	margin-right: 100px;
 	margin-top: 70px;
 	width: 30%;
 	font-size: 20px;
