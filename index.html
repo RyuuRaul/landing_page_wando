@@ -19,27 +19,31 @@
 			$('#video').show(1500);
 		});
 
+		//Cuando se hace click en el botón con id #masInfo, en el div #descripcion
+		//se quita el comportamiento por defecto, desaparece la descripción y el video
+		//y el div #oculto se muestra
 		$(document).ready(function(){
 			$('#descripcion').on('click', '#masInfo', function(e){
 				e.preventDefault();
 				$('#video').slideUp(1000);
 				$('#descripcion').slideUp(1000);
-				$('#oculto').show(2500);
+				$('#oculto').show(2000);
 			});
 		});
 
+		//Cuando se hace clic en el botón con id #volver, en el div #oculto
+		//el div #oculto se esconde y los anteriores se muestan
 		$(document).ready(function(){
 			$('#oculto').on('click', '#volver', function(e){
 				e.preventDefault();
 				$('#oculto').hide(1500);
 				$('#descripcion').show(2000);
-				$('#menuHorizontal').show(1000);
 				$('#video').show(1500);
 			});
 		});
 	</script>
 </head>
-<body background="fondo.png">
+<body style="background: rgba(147,206,222,1)";>
 
 	<div id="menuHorizontal" align="rigth">
 		<ul>
@@ -59,7 +63,9 @@
 	</div>
 
 	<div id="oculto">
-		
+		<div id="volver">
+			<button class="button" align="center">Volver</button>
+		</div>
 		<div id="datos">
 				<img src="imagen.jpg" class="imgRedonda"/>
 			</br>
