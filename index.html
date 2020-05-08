@@ -19,6 +19,9 @@
 			$('#video').show(1500);
 		});
 
+		//Cuando se hace click en el botón con id #masInfo, en el div #descripcion
+		//se quita el comportamiento por defecto, desaparece la descripción y el video
+		//y el div #oculto se muestra
 		$(document).ready(function(){
 			$('#descripcion').on('click', '#masInfo', function(e){
 				e.preventDefault();
@@ -28,12 +31,13 @@
 			});
 		});
 
+		//Cuando se hace clic en el botón con id #volver, en el div #oculto
+		//el div #oculto se esconde y los anteriores se muestan
 		$(document).ready(function(){
 			$('#oculto').on('click', '#volver', function(e){
 				e.preventDefault();
 				$('#oculto').hide(1500);
 				$('#descripcion').show(2000);
-				$('#menuHorizontal').show(1000);
 				$('#video').show(1500);
 			});
 		});
