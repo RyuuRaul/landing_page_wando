@@ -24,7 +24,7 @@
 				e.preventDefault();
 				$('#video').slideUp(1000);
 				$('#descripcion').slideUp(1000);
-				$('#oculto').show(2500);
+				$('#oculto').show(2000);
 			});
 		});
 
@@ -39,7 +39,7 @@
 		});
 	</script>
 </head>
-<body background="fondo.png">
+<body style="background: rgba(147,206,222,1)";>
 
 	<div id="menuHorizontal" align="rigth">
 		<ul>
@@ -59,11 +59,13 @@
 	</div>
 
 	<div id="oculto">
-		
+		<div id="volver">
+			<button class="button" align="center">Volver</button>
+		</div>
 		<div id="datos">
 				<img src="imagen.jpg" class="imgRedonda"/>
 			</br>
-			Habran concierto que intervienen cantantes de la campaña “A una pantalla de distancia”:
+			Habrán conciertos que intervienen cantantes de la campaña “A una pantalla de distancia”:
 			Cristina Ramos,
 			Gabriel Serrini,
 			Los Aseres,
@@ -82,7 +84,8 @@
 			</br>
 				Si buscas momentos inolvidables, de esos que cortan la respiración ¡bienvenido! Empecemos a convertir tus días normales en experiencias memorables.
 		</div>
-		<button class="button" align="center" id="volver">Volver</button>
+		
+		
 	</div>
 	
 
