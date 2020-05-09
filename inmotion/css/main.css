@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);;
 }
 
 iframe {
@@ -881,25 +881,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #F57300 !important;
-  border: 1px solid #F57300 !important;
+  color: rgba(255,175,75,1);
+;
+  border: 1px solid rgba(255,175,75,1);
+;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #F57300 !important;
-  border: 1px solid #F57300 !important;
+  color: rgba(255,175,75,1);
+;
+  border: 1px solid rgba(255,175,75,1);
+;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
   border: 1px solid transparent;
 }
 
@@ -1035,7 +1041,8 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #F57300 !important;
+  border-left: 2px solid rgba(255,175,75,1);
+;
 }
 
 .progress-table-wrap {
@@ -1159,7 +1166,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #F57300 !important;
+  border: 3px solid rgba(255,175,75,1);
+;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1172,7 +1180,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1185,7 +1194,8 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1198,7 +1208,8 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1270,7 +1281,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #F57300 !important;
+  border: 1px solid rgba(255,175,75,1);
+;
 }
 
 .single-input-accent {
@@ -1331,7 +1343,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1414,7 +1427,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
 }
 
 .confirm-switch {
@@ -1763,12 +1777,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   background: transparent;
 }
 
@@ -1818,12 +1834,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   background: transparent;
 }
 
@@ -1913,7 +1931,8 @@ nav a:hover {
 }
 
 body {
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
 }
 
 .main-wrapper-first {
@@ -1994,7 +2013,8 @@ body {
   border-radius: 20px;
   background: transparent;
   border: 1px solid #eee;
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2014,8 +2034,10 @@ body {
 }
 
 .primary-btn:hover {
-  background: #F57300 !important;
-  border: 1px solid #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
+  border: 1px solid rgba(255,175,75,1);
+;
   color: #fff;
 }
 
@@ -2037,11 +2059,11 @@ body {
   height: 300px;
 }
 
-.banner-area .banner-content h1 {
+.banner-area .banner-content {
   font-weight: 600;
   margin-bottom: 20px;
   color: white;
-  text-shadow: 0px 10px 11px rgba(102, 158, 2, 0.3);
+  
 }
 
 @media (max-width: 991px) {
@@ -2121,7 +2143,8 @@ body {
 }
 
 .featured-area .single-feature:hover span {
-  color: #F57300 !important;
+  color: rgba(255,175,75,1);
+;
 }
 
 .testimonial-area {
@@ -2175,8 +2198,10 @@ body {
 }
 
 .testimonial-area .next-trigger:hover, .testimonial-area .prev-trigger:hover {
-  background: #F57300 !important;
-  border: 1px solid #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
+  border: 1px solid rgba(255,175,75,1);
+;
 }
 
 .testimonial-area .next-trigger:hover span, .testimonial-area .prev-trigger:hover span {
@@ -2373,7 +2398,8 @@ body {
 }
 
 .single-address:hover .icon {
-  background: #F57300 !important;
+ background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+;
 }
 
 .single-address:hover .icon span {
@@ -2489,7 +2515,7 @@ body {
 }
 
 .subscription .info.valid {
-  color: green;
+  color: white;
 }
 
 .subscription .info.error {
