@@ -12,13 +12,14 @@
   font-weight: 300;
 }
 
-.logos{
+.logo-hotel{
   text-align: right;
 }
 
-.wando{
+.hotel{
   margin-right: 20px;
 }
+
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
@@ -120,8 +121,8 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1, h2, h4,
+h5, h6 {
   font-family: "Poppins", sans-serif;
   color: white;
   line-height: 1.25em !important;
