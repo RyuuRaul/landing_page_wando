@@ -904,7 +904,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary-border:hover {
   color: #fff;
- background: -moz-linear-gradient(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
+ background: (left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
 ;
   border: 1px solid transparent;
 }
