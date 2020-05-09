@@ -12,6 +12,14 @@
   font-weight: 300;
 }
 
+.logos{
+  text-align: right;
+}
+
+.wando{
+  margin-right: 20px;
+}
+
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #777777;
@@ -115,7 +123,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: white;
   line-height: 1.25em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -1344,8 +1352,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 2
   width: 15px;
   height: 15px;
   border-radius: 50%;
- -o-linear-gradient-(left, rgba(255,175,75,1) 16%, rgba(255,163,49,1) 38%, rgba(255,154,27,1) 56%, rgba(255,146,10,1) 70%, rgba(255,146,10,1) 88%);
-;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
